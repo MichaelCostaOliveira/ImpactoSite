@@ -9,8 +9,8 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('img') }}/Logo_site.png" rel="icon">
-    <link href="{{ asset('img') }}/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="{{ asset('img/Logo_site.png') }}" rel="icon">
+    <link href="{{ asset('img/apple-touch-icon.png') }}" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link
@@ -18,18 +18,18 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('vendor') }}/bootstrap/css/bootstrap.css" rel="stylesheet"/>
-    <link href="{{ asset('vendor') }}/icofont/icofont.css" rel="stylesheet"/>
+    <link href="{{ asset('vendor/bootstrap/css/bootstrap.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/icofont/icofont.css') }}" rel="stylesheet"/>
 
-    <link href="{{ asset('vendor') }}/boxicons/css/boxicons.css" rel="stylesheet"/>
-    <link href="{{ asset('vendor') }}/venobox/venobox.css" rel="stylesheet"/>
-    <link href="{{ asset('vendor') }}/owl.carousel/assets/owl.carousel.css" rel="stylesheet"/>
-    <link href="{{ asset('vendor') }}/aos/aos.css" rel="stylesheet"/>
+    <link href="{{ asset('vendor/boxicons/css/boxicons.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/venobox/venobox.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/owl.carousel/assets/owl.carousel.css') }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/aos/aos.css') }}" rel="stylesheet"/>
     <link
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
     <!-- Template Main CSS File -->
-    <link href="{{ asset('css') }}/style.css" rel="stylesheet"/>
+    <link href="{{ asset('css/style.css') }}" rel="stylesheet"/>
 
     <!-- =======================================================
     * Template Name: Squadfree - v2.3.1
@@ -122,17 +122,17 @@
     </div>
 </footer>
 <!-- Vendor JS Files -->
-<script src="{{ asset('vendor') }}/jquery/jquery.min.js"></script>
-<script src="{{ asset('vendor') }}/bootstrap/js/bootstrap.bundle.js"></script>
-<script src="{{ asset('vendor') }}/jquery.easing/jquery.easing.min.js"></script>
-<script src="{{ asset('vendor') }}/waypoints/jquery.waypoints.min.js"></script>
-<script src="{{ asset('vendor') }}/counterup/counterup.min.js"></script>
-<script src="{{ asset('vendor') }}/isotope-layout/isotope.pkgd.js"></script>
-<script src="{{ asset('vendor') }}/venobox/venobox.js"></script>
-<script src="{{ asset('vendor') }}/owl.carousel/owl.carousel.js"></script>
-<script src="{{ asset('vendor') }}/aos/aos.js"></script>
+<script src="{{ asset('vendor/jquery/jquery.min.js') }}"></script>
+<script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.js') }}"></script>
+<script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js') }}"></script>
+<script src="{{ asset('vendor/waypoints/jquery.waypoints.min.js') }}"></script>
+<script src="{{ asset('vendor/counterup/counterup.min.js') }}"></script>
+<script src="{{ asset('vendor/isotope-layout/isotope.pkgd.js') }}"></script>
+<script src="{{ asset('vendor/venobox/venobox.js') }}"></script>
+<script src="{{ asset('vendor/owl.carousel/owl.carousel.js') }}"></script>
+<script src="{{ asset('vendor/aos/aos.js') }}"></script>
 <!-- Template Main JS File -->
-<script src="{{ asset('js') }}/main.js"></script>
+<script src="{{ asset('js/main.js') }}"></script>
 <script>
 @if(Route::getCurrentRoute()->getName() == 'home')
 $('.menu-home').click(function() {
