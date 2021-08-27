@@ -4,13 +4,13 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Dr. Ricardo Aranella</title>
+    <title>Academia Impacto</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('img/Logo_site.png', env('SECURE_PATH',  null)) }}" rel="icon">
-    <link href="{{ asset('img/apple-touch-icon.png', env('SECURE_PATH',  null)) }}" rel="apple-touch-icon">
+    <link href="{{ asset('img/Logoblack.png', env('SECURE_PATH',  null)) }}" rel="icon">
+
 
     <!-- Google Fonts -->
     <link
@@ -51,8 +51,9 @@
         <nav class="nav-menu d-none d-lg-block">
             <ul>
                 <li class="active"><a href="{{ route('home') }}" class="menu-home">HOME</a></li>
-                <li><a href="#team">SOBRE</a></li>
                 <li><a href="#planos">PLANOS</a></li>
+                <li><a href="#team">SOBRE</a></li>
+
 {{--                <li class="drop-down"><a href="#planos">PLANOS</a>--}}
 {{--                    <ul>--}}
 {{--                        <li><a href="#">ADOLESCÊNCIA</a></li>--}}

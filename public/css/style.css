@@ -1261,9 +1261,10 @@ section {
   padding: 20px 0 30px 0;
 }
 
+
 .contact .info-box i {
   font-size: 32px;
-  color: #c4acab;
+  color: #6ca72c;
   border-radius: 50%;
   padding: 8px;
   border: 2px dotted #f0f7fa;
@@ -1358,12 +1359,13 @@ section {
 }
 
 .contact .php-email-form button[type="submit"] {
-  background: #c4acab;
+  background: #212529;
   border: 0;
   padding: 10px 24px;
   color: #fff;
   transition: 0.4s;
 }
+
 
 .contact .php-email-form button[type="submit"]:hover {
   background: #6ca72c;
@@ -1406,7 +1408,7 @@ section {
   margin-bottom: 15px;
   background: white;
   color: #6ca72c;
-  border-top: 4px solid #c4acab;
+  border-top: 4px solid #6ca72c;
   text-align: center;
   padding: 30px 20px;
 }

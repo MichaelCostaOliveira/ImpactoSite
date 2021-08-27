@@ -1,6 +1,9 @@
 <?php
 
+use App\Mail\newEmail;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Http\Request;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +22,13 @@ Route::get('/',[\App\Http\Controllers\HomeController::class, 'index'])
 Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])
     ->name('galeria');
 
+Route::post('envio-email', function (Request $request) {
+    $user = new stdClass();
+    $user->name = $request->name;
+    $user->email = $request->email;
+    $user->mensagem = $request->message;
+    $user->titulo = $request->subject;
+
+    Mail::send(new newEmail($user));
+    return redirect()->route('home');
+})->name('envio-email');

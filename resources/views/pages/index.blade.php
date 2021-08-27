@@ -46,65 +46,6 @@
           </div>
       </section>
       <!-- End About Section -->
-
-      <!-- ======= Team Section ======= -->
-      <section id="team" class="team">
-          <div class="container">
-              <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-                  <h2>Sobre</h2>
-              </div>
-              <div class="row">
-                  <div class="col-lg-6 col-md-6">
-                      <div class="member" data-aos="fade-up" data-aos-delay="300">
-                          <div class="pic">
-                              <img src="{{ asset('img') }}/Ricardo.jpg" class="img-fluid" alt="">
-                          </div>
-                          <div class="member-info">
-                              <h4>Dr Ricardo Roscito Arenella</h4>
-                              <span>crm 109993</span>
-                              <div class="social">
-                                  <a href=""><i class="icofont-whatsapp" style="color: #621b13"></i></a>
-                                  <a href=""><i class="icofont-youtube" style="color: #621b13"></i></a>
-                                  <a href="https://www.instagram.com/dricardoarenella/"><i class="icofont-instagram"
-                                                                                           style="color: #621b13"></i></a>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-                  <div class="col-lg-6 col-md-6">
-                      <div class="texto-curriculo">
-                          <h3 class="title">Dr. Ricardo Roscito Arenella</h3>
-                          <p class="txt1">
-                              Filho de ginecologista reconhecido na região do ABC, em São Caetano do Sul, Dr.Aldo
-                              Arenella (in memorian), Dr.Ricardo cresceu em meio à forte
-                              influência dessa linda e honrosa profissão. Seu pai o levava para acompanhar o consultório
-                              e os partos desde pequeno e a aptidão surgiu com naturalidade
-                              desde então. Foi sócio herdeiro de um Hospital em São Bernardo do Campo quando chegou a
-                              coordenar mais de 45 colegas especialistas de profissão na maternidade
-                              que realizava na época aproximadamente 630 partos por mês. Médico muito atencioso, humano
-                              e dedicado, utiliza de linguagem simples ao fácil entendimento de suas
-                              pacientes e com experiência pelos mais de dois mil partos já realizados. Atualmente entre
-                              as clínicas que atende, no grande ABC e São Paulo capital, integra a equipe
-                              de ginecologia do Hospital São Luiz unidade Morumbi e Rede D’or Assunção.
-                          </p>
-                      </div>
-                      <div class="texto-curriculo">
-                          <h3 class="title">Mini currículo</h3>
-                          <p class="txt1">
-                              Formado pela faculdade de Medicina do ABC (FMABC)
-                              Residência médica em Ginecologia e Obstetrícia pela FMABC
-                              Especialista em Ginecologia e Obstetrícia pelo Conselho Federal de Medicina (CFM)
-                              Membro da Federação Paulista de Ginecologia e Obstetrícia (FEBRASGO)
-                              Pós Graduado em Medicina Estética pela Sociedade Brasileira de Medicina Estética(SBME –
-                              ASIME (Internacional))
-                              MBA em Gestão de Serviços de Saúde pela FGV-CEAHS
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- End Team Section -->
       <section id="planos" class="planos section-plan">
           <div class="container">
               <div class="section-title" data-aos="fade-in" data-aos-delay="100">
@@ -303,9 +244,69 @@
               </div>
           </div>
       </section>
+      <!-- ======= Team Section ======= -->
+      <section id="team" class="team">
+          <div class="container">
+              <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+                  <h2>Sobre</h2>
+              </div>
+              <div class="row">
+                  <div class="col-lg-6 col-md-6">
+                      <div class="member" data-aos="fade-up" data-aos-delay="300">
+                          <div class="pic">
+                              <img src="{{ asset('img/img_academia.png') }}" class="img-fluid" alt="">
+                          </div>
+                          <div class="member-info">
+                              <h4>Academia Impacto Fitness</h4>
+                              <span>desde 2013</span>
+                              <div class="social">
+                                  <a href=""><i class="icofont-whatsapp" style="color: #54861f"></i></a>
+                                  <a href=""><i class="icofont-youtube" style="color: #54861f"></i></a>
+                                  <a href="https://www.instagram.com/dricardoarenella/">
+                                      <i class="icofont-instagram" style="color: #54861f">
+                                      </i>
+                                  </a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-lg-6 col-md-6">
+                      <div class="texto-curriculo">
+                          <h3 class="title">Dr. Ricardo Roscito Arenella</h3>
+                          <p class="txt1">
+                              Filho de ginecologista reconhecido na região do ABC, em São Caetano do Sul, Dr.Aldo
+                              Arenella (in memorian), Dr.Ricardo cresceu em meio à forte
+                              influência dessa linda e honrosa profissão. Seu pai o levava para acompanhar o consultório
+                              e os partos desde pequeno e a aptidão surgiu com naturalidade
+                              desde então. Foi sócio herdeiro de um Hospital em São Bernardo do Campo quando chegou a
+                              coordenar mais de 45 colegas especialistas de profissão na maternidade
+                              que realizava na época aproximadamente 630 partos por mês. Médico muito atencioso, humano
+                              e dedicado, utiliza de linguagem simples ao fácil entendimento de suas
+                              pacientes e com experiência pelos mais de dois mil partos já realizados. Atualmente entre
+                              as clínicas que atende, no grande ABC e São Paulo capital, integra a equipe
+                              de ginecologia do Hospital São Luiz unidade Morumbi e Rede D’or Assunção.
+                          </p>
+                      </div>
+                      <div class="texto-curriculo">
+                          <h3 class="title">Mini currículo</h3>
+                          <p class="txt1">
+                              Formado pela faculdade de Medicina do ABC (FMABC)
+                              Residência médica em Ginecologia e Obstetrícia pela FMABC
+                              Especialista em Ginecologia e Obstetrícia pelo Conselho Federal de Medicina (CFM)
+                              Membro da Federação Paulista de Ginecologia e Obstetrícia (FEBRASGO)
+                              Pós Graduado em Medicina Estética pela Sociedade Brasileira de Medicina Estética(SBME –
+                              ASIME (Internacional))
+                              MBA em Gestão de Serviços de Saúde pela FGV-CEAHS
+                          </p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- End Team Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <section id="galeria" class="portfolio">
+      <section id="galeria" class="portfolio section-plan">
           <div class="container">
 
               <div class="section-title" data-aos="fade-in" data-aos-delay="100">
@@ -330,20 +331,20 @@
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-1.jpg') }}" class="img-fluid" alt="">
+                          <img src="{{ asset('/img/portfolio/portifolio1.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-1.jpg') }}" data-gall="portfolioGallery"
+                              <a href="{{ asset('/img/portfolio/portifolio1.png') }}" data-gall="portfolioGallery"
                                  class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                              <a href="" title="More Details"><i class="bx bx-link"></i></a>
                           </div>
                       </div>
                   </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                       <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-2.jpg') }}" class="img-fluid" alt="">
+                          <img src="{{ asset('/img/portfolio/portifolio2.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-2.jpg') }}" data-gall="portfolioGallery"
+                              <a href="{{ asset('/img/portfolio/portifolio2.png') }}" data-gall="portfolioGallery"
                                  class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
                               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                           </div>
@@ -352,9 +353,9 @@
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-3.jpg') }}" class="img-fluid" alt="">
+                          <img src="{{ asset('/img/portfolio/portifolio3.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-3.jpg') }}" data-gall="portfolioGallery"
+                              <a href="{{ asset('/img/portfolio/portifolio3.png') }}" data-gall="portfolioGallery"
                                  class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                           </div>
@@ -363,9 +364,9 @@
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-card">
                       <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-4.jpg') }}" class="img-fluid" alt="">
+                          <img src="{{ asset('/img/portfolio/portifolio4.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-4.jpg') }}" data-gall="portfolioGallery"
+                              <a href="{{ asset('/img/portfolio/portifolio4.png') }}" data-gall="portfolioGallery"
                                  class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
                               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                           </div>
@@ -374,9 +375,9 @@
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-web">
                       <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-5.jpg') }}" class="img-fluid" alt="">
+                          <img src="{{ asset('/img/portfolio/portifolio5.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-5.jpg') }}" data-gall="portfolioGallery"
+                              <a href="{{ asset('/img/portfolio/portifolio5.png') }}" data-gall="portfolioGallery"
                                  class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
                               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                           </div>
@@ -432,6 +433,7 @@
           </div>
       </section>
       <!-- End Portfolio Section -->
+
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact section-bg">
           <div class="container">
@@ -443,21 +445,21 @@
                       <div class="info-box mb-4">
                           <i class="bx bx-map"></i>
                           <h3>Endereço</h3>
-                          <p>Av. Caminho do Mar, 1850 - Rudge Ramos, São Bernardo do Campo - SP</p>
+                          <p>R. Avaré - Jardim Angela, Embu das Artes - SP</p>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="info-box  mb-4">
                           <i class="bx bx-envelope"></i>
                           <h3>E-mail</h3>
-                          <p>contato@drricardoarenella.com.br</p>
+                          <p>impacto.academiafitness@gmail.com</p>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="info-box  mb-4">
                           <i class="bx bx-phone-call"></i>
                           <h3>Telefone</h3>
-                          <p>(11) 2808-2108</p>
+                          <p>(11) 9 4101-3323</p>
                       </div>
                   </div>
               </div>
@@ -468,7 +470,8 @@
                               frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
                   </div>
                   <div class="col-lg-6">
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                      <form action="{{ route('envio-email') }}" method="post" role="form" class="php-email-form">
+                          @csrf
                           <div class="form-row">
                               <div class="col-md-6 form-group">
                                   <input type="text" name="name" class="form-control" id="name" placeholder="Nome"
@@ -479,6 +482,16 @@
                                   <input type="email" class="form-control" name="email" id="email" placeholder="E-mail"
                                          data-rule="email" data-msg="Please enter a valid email"/>
                                   <div class="validate"></div>
+                              </div>
+                          </div>
+                          <div class="form-row">
+                              <div class="col-md-12 form-group">
+                                  <select class="form-control"name="plano" id="plano">
+                                      <option disabled selected style="display: none;" value="">Planos</option>
+                                      <option value="black">Black</option>
+                                      <option value="fit">Fit</option>
+                                      <option value="basic">Basic</option>
+                                  </select>
                               </div>
                           </div>
                           <div class="form-group">

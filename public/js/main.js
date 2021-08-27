@@ -121,10 +121,10 @@
 
 
     $(window).scroll(function() {
-        if ($(this).scrollTop() > 90 && $(this).scrollTop() < 1676) {
+        if ($(this).scrollTop() > 90 && $(this).scrollTop() < 3579) {
             $('.back-to-top').addClass('back-to-top-scroll-verde');
             $('.back-to-top').removeClass('back-to-top-scroll-cinza');
-        } else if ($(this).scrollTop() > 1676){
+        } else if ($(this).scrollTop() > 3579){
             $('.back-to-top').removeClass('back-to-top-scroll-verde');
             $('.back-to-top').addClass('back-to-top-scroll-cinza');
         }
