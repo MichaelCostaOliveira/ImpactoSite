@@ -52,7 +52,7 @@
             <ul>
                 <li class="active"><a href="{{ route('home') }}" class="menu-home">HOME</a></li>
                 <li><a href="#team">SOBRE</a></li>
-                <li><a href="#planos">Planos</a></li>
+                <li><a href="#planos">PLANOS</a></li>
 {{--                <li class="drop-down"><a href="#planos">PLANOS</a>--}}
 {{--                    <ul>--}}
 {{--                        <li><a href="#">ADOLESCÊNCIA</a></li>--}}
@@ -61,7 +61,8 @@
 {{--                        <li><a href="#">CLIMATÉRIO (MENOPAUSA)</a></li>--}}
 {{--                    </ul>--}}
 {{--                </li>--}}
-                <li><a href="{{ route('galeria') }}">GALERIA DE FOTOS</a></li>
+{{--                <li><a href="{{ route('galeria') }}">GALERIA DE FOTOS</a></li>--}}
+                <li><a href="#galeria">GALERIA</a></li>
                 <li><a href="#contact">CONTATO</a></li>
 
             </ul>
