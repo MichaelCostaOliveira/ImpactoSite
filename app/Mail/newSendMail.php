@@ -6,20 +6,17 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Illuminate\Support\Facades\Mail;
-use stdClass;
 
-class newEmail extends Mailable
+class newSendMail extends Mailable
 {
     use Queueable, SerializesModels;
-    private $user;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct(stdClass $user)
+    public function __construct(\stdClass $user)
     {
         $this->user = $user;
     }
@@ -31,10 +28,8 @@ class newEmail extends Mailable
      */
     public function build()
     {
-        $this->subject('Vindo do site');
-        $this->to('contato@xb3solucoes.com.br', 'XB3 Soluções');
-        // $this->to('pitter775@gmail.com', 'XB3 Soluções');
-   
+        $this->to('michaelrcostadeoliveira@gmail.com',  $this->user->name);
+        $this->subject('Novo Cliente');
         return $this->markdown('mail.newEmail', ['user'=> $this->user]);
     }
 }

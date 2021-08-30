@@ -1,6 +1,6 @@
 <?php
 
-use App\Mail\newEmail;
+use App\Mail\newSendMail;
 use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Route;
 use Illuminate\Http\Request;
@@ -27,8 +27,8 @@ Route::post('envio-email', function (Request $request) {
     $user->name = $request->name;
     $user->email = $request->email;
     $user->mensagem = $request->message;
-    $user->titulo = $request->subject;
-
-    Mail::send(new newEmail($user));
+    $user->plano = $request->plano;
+    $user->titulo = 'Novo Cliente';
+    Mail::send(new newSendMail($user));
     return redirect()->route('home');
 })->name('envio-email');

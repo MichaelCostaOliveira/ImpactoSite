@@ -18,25 +18,24 @@
                           <div class="row">
                               <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                                   <i class="bx bxs-bolt"></i>
-                                  <h4>Corporis voluptates sit</h4>
-                                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut
-                                      aliquip</p>
+                                  <h4>Perder caloria é o nosso foco!</h4>
+                                  <p>Temos aulas de altas tensões como zumba,
+                                      ginástica aerobica e Muay Thai onde você ativa seu metabolismo e alcança resultado de forma instantânea!</p>
                               </div>
                               <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
                                   <i class="bx bx-dumbbell"></i>
-                                  <h4>Ullamco laboris nisi</h4>
-                                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                                      deserunt</p>
+                                  <h4>Resultados</h4>
+                                  <p>Na nossa academia priorizamos o resultado! Sendo assim, temos disponíveis diversos equipamentos e aparelhos para variação de treinos dos nossos alunos</p>
                               </div>
                               <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="750">
                                   <i class="bx bx-time-five"></i>
-                                  <h4>Labore consequatur</h4>
-                                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                                  <h4>Aulas e Treinos</h4>
+                                  <p>Temos aulas e treinos com horas marcadas para a facilidade e alinhamento dos nossos alunos! Consulte nossos horários de funcionamento e nossas modalidades</p>
                               </div>
                               <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="1000">
                                   <i class="bx bx-cart"></i>
-                                  <h4>Beatae veritatis</h4>
-                                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
+                                  <h4>Nossa Loja</h4>
+                                  <p>temos disponíveis na nossa loja interna diversificações de WHEYs, proteínas e vitaminas para te auxiliar no seu processo de transição corporal! consulte nossas promoções.</p>
                               </div>
                           </div>
                       </div>
@@ -258,7 +257,7 @@
                           </div>
                           <div class="member-info">
                               <h4>Academia Impacto Fitness</h4>
-                              <span>desde 2013</span>
+                              <span>NOSSO OBJETIVO É O SEU RESULTADO</span>
                               <div class="social">
                                   <a href=""><i class="icofont-whatsapp" style="color: #54861f"></i></a>
                                   <a href=""><i class="icofont-youtube" style="color: #54861f"></i></a>
@@ -452,14 +451,18 @@
                       <div class="info-box  mb-4">
                           <i class="bx bx-envelope"></i>
                           <h3>E-mail</h3>
-                          <p>impacto.academiafitness@gmail.com</p>
+                          <a href="malito:impacto.academiafitness@gmail.com" class="item-link mailto">
+                              <p>impacto.academiafitness@gmail.com</p>
+                          </a>
                       </div>
                   </div>
                   <div class="col-lg-3 col-md-6">
-                      <div class="info-box  mb-4">
-                          <i class="bx bx-phone-call"></i>
-                          <h3>Telefone</h3>
-                          <p>(11) 9 4101-3323</p>
+                      <div class="info-box mb-4">
+                          <a href="tel:5511941013323">
+                              <i class="bx bx-phone-call"></i>
+                                <h3>Telefone</h3>
+                          </a>
+                            (11) 9 4101-3323
                       </div>
                   </div>
               </div>

@@ -44,9 +44,9 @@
 <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center">
 
-    <!-- ======= <div class="logo mr-auto"> *logo na barra de menu*
-            <a href="{{ url('/index') }}"><img src="{{ asset('img') }}/Logo_site.png" alt="" class="img-fluid"></a>
-          </div> ======= -->
+    <div class="logo mr-auto">
+        <a href="{{ url('/index') }}">Impacto</a>
+    </div>
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
@@ -95,7 +95,7 @@
                             <strong>Email:</strong> info@example.com<br>
                         </p>
                         <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-whatsapp"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=+5511943308575" class="twitter"><i class="bx bxl-whatsapp"></i></a>
                             <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                             <a href="#" class="instagram"><i class="bx bxl-youtube"></i></a>
