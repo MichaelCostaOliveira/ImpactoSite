@@ -48,7 +48,8 @@
       <section id="planos" class="planos section-plan">
           <div class="container">
               <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-                  <h2>Escolha seu plano</h2>
+                  <h2 class="section-title_verde">Escolha seu plano</h2>
+                  <h5 class="texto-escuro">Planos Recorrência* Benefícios</h5>
                   <p class="texto-escuro">
                       Treine o quanto quiser com nossos planos. Todos oferecem áreas de musculação, aeróbico, aulas
                       especiais e de ginástica
@@ -57,7 +58,115 @@
               <div class="row justify-center">
                   <div class="col-md-12 mb-6 pt-3 text-center">
                       <div class="row justify-center">
-                          <div class="col-md-4 mt-6 my-6" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
+                              <div class="plano-smart">
+                                  <div>
+                                      <div class="badge badge-black">
+                                          <strong>Impacto</strong>
+                                      </div>
+                                      <div class="text-center py-3 card-verde">
+                                          <p class="uppercase text-white  font-bold">
+                                              PLANO
+                                          </p>
+                                          <h2 class="text-black uppercase title-escuro">
+                                              BASIC
+                                          </h2>
+                                      </div>
+                                      <div class="linha-escura">
+                                          <div class="text-center text-black">
+                                              <span class="text-white font-bold uppercase">
+                                                A PARTIR DE
+                                              </span>
+                                              <br>
+                                              <div
+                                                  class="text-4xl font-bold text-black formatted_membership_price text-white">
+                                                  R$ 75,00
+                                              </div>
+                                              <span class="font-bold uppercase text-black">
+                                              </span>
+                                          </div>
+                                      </div>
+
+                                      <div class="">
+                                          <h5 class="uppercase mb-3 mt-3 font-bold texto-escuro">
+                                              DIFERENCIAIS
+                                          </h5>
+                                          <ul>
+                                              <li class="font-bold mb-6 titulo-claro2 text-left">
+                                                  Acesso ilimitado a todas áreas da academia
+                                              </li>
+                                              <li class="font-bold mb-6 titulo-claro2 text-left">
+                                                  Aulas de Ginástica
+                                              </li>
+                                              <li class="font-bold mb-6 titulo-claro2 text-left">
+                                                  Área de musculação e aeróbicos
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </div>
+
+                                  <div>
+                                      <div class="plano__cta">
+                                          <p>Aproveite</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
+                              <div class="plano-smart">
+                                  <div>
+                                      <div class="badge badge-black">
+                                          <strong>Impacto</strong>
+                                      </div>
+                                      <div class="text-center py-3 card-verde">
+                                          <p class="uppercase text-white  font-bold">
+                                              PLANO
+                                          </p>
+                                          <h2 class="text-black uppercase title-escuro">
+                                              FIT
+                                          </h2>
+                                      </div>
+                                      <div class="linha-escura">
+                                          <div class="text-center text-black">
+                                              <span class="text-white font-bold uppercase">
+                                                A PARTIR DE
+                                              </span>
+                                              <br>
+                                              <div
+                                                  class="text-4xl font-bold text-black formatted_membership_price text-white">
+                                                  R$ 89,99
+                                              </div>
+                                              <span class="font-bold uppercase text-black">
+                                              </span>
+                                          </div>
+                                      </div>
+
+                                      <div class="">
+                                          <h5 class="uppercase mb-3 mt-3 font-bold texto-escuro">
+                                              DIFERENCIAIS
+                                          </h5>
+                                          <ul>
+                                              <li class="font-bold mb-6 titulo-claro2 text-left">
+                                                  Acesso ilimitado a todas áreas da academia
+                                              </li>
+                                              <li class="font-bold mb-6 titulo-claro2 text-left">
+                                                  Aulas de Ginástica
+                                              </li>
+                                              <li class="font-bold mb-6 titulo-claro2 text-left">
+                                                  Área de musculação e aeróbicos
+                                              </li>
+                                          </ul>
+                                      </div>
+                                  </div>
+
+                                  <div>
+                                      <div class="plano__cta">
+                                          <p>Aproveite</p>
+                                      </div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
                               <div class="plano-inicio">
 
                                   <div>
@@ -111,133 +220,6 @@
                                   </div>
                               </div>
                           </div>
-                          <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
-                              <div class="plano-smart">
-                                  <div>
-                                      <div class="badge badge-black">
-                                          <strong>Impacto</strong>
-                                      </div>
-                                      <div class="text-center py-3 card-verde">
-                                          <p class="uppercase text-white  font-bold">
-                                              PLANO
-                                          </p>
-                                          <h2 class="text-black uppercase title-escuro">
-                                              FIT
-                                          </h2>
-                                      </div>
-                                      <div class="linha-escura">
-                                          <div class="text-center text-black">
-                                              <span class="text-white font-bold uppercase">
-                                                A PARTIR DE
-                                              </span>
-                                              <br>
-                                              <div
-                                                  class="text-4xl font-bold text-black formatted_membership_price text-white">
-                                                  R$ 89,99
-                                              </div>
-                                              <span class="font-bold uppercase text-black">
-                                              </span>
-                                          </div>
-                                      </div>
-
-                                      <div class="plano__body px-5">
-                                          <p class="fz-18 mb-6">
-                                              Treine o quanto quiser na sua unidade, sem taxa de cancelamento.
-                                          </p>
-                                          <hr class="mb-6">
-                                          <div class="text-gray fz-14 fw-900 uppercase mb-3">
-                                              DIFERENCIAIS
-                                          </div>
-
-                                          <p class="font-bold mb-6">
-                                              Acesso ilimitado a todas áreas da academia
-                                          </p>
-                                          <p class="font-bold mb-6">
-                                              Aulas de Ginástica
-                                          </p>
-                                          <p class="font-bold mb-6">
-                                              Área de musculação e aeróbicos
-                                          </p>
-                                          <p class="font-bold mb-6">
-                                              Smart Fit Go
-                                          </p>
-                                          <p class="font-bold mb-6">
-                                              Sem taxa de cancelamento
-                                          </p>
-                                      </div>
-                                  </div>
-
-                                  <div>
-                                      <div class="plano__cta">
-                                          <p>Aproveite</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-                          <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
-                              <div class="plano-smart">
-                                  <div>
-                                      <div class="badge badge-black">
-                                          <strong>Impacto</strong>
-                                      </div>
-                                      <div class="text-center py-3 card-verde">
-                                          <p class="uppercase text-white  font-bold">
-                                              PLANO
-                                          </p>
-                                          <h2 class="text-black uppercase title-escuro">
-                                              BASIC
-                                          </h2>
-                                      </div>
-                                      <div class="linha-escura">
-                                          <div class="text-center text-black">
-                                              <span class="text-white font-bold uppercase">
-                                                A PARTIR DE
-                                              </span>
-                                              <br>
-                                              <div
-                                                  class="text-4xl font-bold text-black formatted_membership_price text-white">
-                                                  R$ 75,00
-                                              </div>
-                                              <span class="font-bold uppercase text-black">
-                                              </span>
-                                          </div>
-                                      </div>
-
-                                      <div class="plano__body px-5">
-                                          <p class="fz-18 mb-6">
-                                              Treine o quanto quiser na sua unidade, sem taxa de cancelamento.
-                                          </p>
-                                          <hr class="mb-6">
-                                          <div class="text-gray fz-14 fw-900 uppercase mb-3">
-                                              DIFERENCIAIS
-                                          </div>
-
-                                          <p class="font-bold mb-6">
-                                              Acesso ilimitado a todas áreas da academia
-                                          </p>
-                                          <p class="font-bold mb-6">
-                                              Aulas de Ginástica
-                                          </p>
-                                          <p class="font-bold mb-6">
-                                              Área de musculação e aeróbicos
-                                          </p>
-                                          <p class="font-bold mb-6">
-                                              Smart Fit Go
-                                          </p>
-                                          <p class="font-bold mb-6">
-                                              Sem taxa de cancelamento
-                                          </p>
-                                      </div>
-                                  </div>
-
-                                  <div>
-                                      <div class="plano__cta">
-                                          <p>Aproveite</p>
-                                      </div>
-                                  </div>
-                              </div>
-                          </div>
-
                       </div>
                   </div>
               </div>
@@ -318,15 +300,28 @@
               <div class="row" data-aos="fade-in">
                   <div class="col-lg-12 d-flex justify-content-center">
                       <ul id="portfolio-flters">
-                          <li data-filter="*" class="filter-active">All</li>
-                          <li data-filter=".filter-app">App</li>
-                          <li data-filter=".filter-card">Card</li>
-                          <li data-filter=".filter-web">Web</li>
+                          <li data-filter="*" class="filter-active">Todos</li>
+                          <li data-filter=".filter-segunda">Segunda</li>
+                          <li data-filter=".filter-card">Terça</li>
+                          <li data-filter=".filter-web">Quarta</li>
+                          <li data-filter=".filter-web">Quinta</li>
+                          <li data-filter=".filter-web">Sexta</li>
                       </ul>
                   </div>
               </div>
 
               <div class="row portfolio-container" data-aos="fade-up">
+
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-segunda">
+                      <div class="portfolio-wrap">
+                          <img src="{{ asset('/img/portfolio/portifolio2.png') }}" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <a href="{{ asset('/img/portfolio/portifolio2.png') }}" data-gall="portfolioGallery"
+                                 class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                          </div>
+                      </div>
+                  </div>
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">
@@ -339,16 +334,7 @@
                       </div>
                   </div>
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                      <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portifolio2.png') }}" class="img-fluid" alt="">
-                          <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portifolio2.png') }}" data-gall="portfolioGallery"
-                                 class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                          </div>
-                      </div>
-                  </div>
+
 
                   <div class="col-lg-4 col-md-6 portfolio-item filter-app">
                       <div class="portfolio-wrap">

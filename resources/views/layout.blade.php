@@ -44,15 +44,15 @@
 <header id="header" class="fixed-top header-transparent">
     <div class="container d-flex align-items-center">
 
-    <div class="logo mr-auto">
-        <a href="{{ url('/index') }}">Impacto</a>
+    <div class="logo mr-auto d-lg-none">
+        <a href="{{ route('home') }}"><img class="img-topo" src="{{ asset('img/logo-topo-preto.png') }}" ></a>
     </div>
 
         <nav class="nav-menu d-none d-lg-block">
             <ul>
                 <li class="active"><a href="{{ route('home') }}" class="menu-home">HOME</a></li>
                 <li><a href="#planos">PLANOS</a></li>
-                <li><a href="#team">SOBRE</a></li>
+                <li><a href="#team">MISSÃO E VALORES</a></li>
 
 {{--                <li class="drop-down"><a href="#planos">PLANOS</a>--}}
 {{--                    <ul>--}}
