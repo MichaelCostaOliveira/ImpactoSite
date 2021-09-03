@@ -85,20 +85,21 @@
 
                 <div class="col-lg-4 col-md-6">
                     <div class="footer-info" data-aos="fade-up" data-aos-delay="50">
-                        <h3>Squadfree</h3>
-                        <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi
-                                quod.</em></p>
+                        <h3>Academia Impacto Fitness</h3>
+                        <p class="pb-3"><em>NOSSO OBJETIVO É O SEU RESULTADO.</em></p>
                         <p>
-                            A108 Adam Street <br>
-                            NY 535022, USA<br><br>
-                            <strong>Phone:</strong> +1 5589 55488 55<br>
-                            <strong>Email:</strong> info@example.com<br>
+                            R. Avaré - Jardim Angela<br>
+                            Embu das Artes - SP, 06824-270<br><br>
+                            <strong>Phone:</strong> (11) 9 4101-3323<br>
+                            <strong>Email:</strong> impacto.academiafitness@gmail.com<br>
                         </p>
                         <div class="social-links mt-3">
-                            <a href="https://api.whatsapp.com/send?phone=+5511943308575" class="twitter"><i class="bx bxl-whatsapp"></i></a>
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-youtube"></i></a>
+                            <a href="https://api.whatsapp.com/send?phone=5511941013323"  target="_blank"><i class="bx bxl-whatsapp"></i></a>
+                            <a href="https://www.facebook.com/impact.acade" class="facebook"  target="_blank"><i class="bx bxl-facebook"></i></a>
+{{--                            <a class="" href="https://www.google.com/maps/dir//ACADEMIA+IMPACTO+FITNESS/data=!4m8!4m7!1m0!1m5!1m1!1s0x94ce531831951c55:0x3b7403e06d37c44d!2m2!1d-46.803862699999996!2d-23.6741915"--}}
+{{--                                target="_blank" data-tracking-element-type="6" jslog="56039; track:impression,click"><i class="bx bxl-facebook"></i></a>--}}
+                            <a href="https://www.instagram.com/grupoimpactoacademia/?hl=pt-br" class="instagram"  target="_blank"><i class="bx bxl-instagram"></i></a>
+                            <a href="https://www.youtube.com/channel/UC8zcD8YKvumXv9A07p85RyA" class="instagram"  target="_blank"><i class="bx bxl-youtube"></i></a>
                         </div>
                     </div>
                 </div>
@@ -106,11 +107,11 @@
                 <div class="col-lg-2 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="150">
                     <h4>Links úteis</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Home</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#team">MISSÃO E VALORES</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#planos">Planos</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#galeria">Galeria</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contato</a></li>
                     </ul>
                 </div>
 

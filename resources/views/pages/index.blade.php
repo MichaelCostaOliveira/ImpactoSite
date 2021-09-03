@@ -59,9 +59,9 @@
                   <div class="col-md-12 mb-6 pt-3 text-center">
                       <div class="row justify-center">
                           <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
-                              <div class="plano-smart">
+                              <div class="plano-smart h-100">
                                   <div>
-                                      <div class="badge badge-black">
+                                      <div class="badge badge_black">
                                           <strong>Impacto</strong>
                                       </div>
                                       <div class="text-center py-3 card-verde">
@@ -91,15 +91,18 @@
                                           <h5 class="uppercase mb-3 mt-3 font-bold texto-escuro">
                                               DIFERENCIAIS
                                           </h5>
-                                          <ul>
-                                              <li class="font-bold mb-6 titulo-claro2 text-left">
+                                          <ul class="pb-4">
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Acesso ilimitado a todas áreas da academia
                                               </li>
-                                              <li class="font-bold mb-6 titulo-claro2 text-left">
-                                                  Aulas de Ginástica
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Treino 7dias por semana
                                               </li>
-                                              <li class="font-bold mb-6 titulo-claro2 text-left">
-                                                  Área de musculação e aeróbicos
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Treinos personalizados todos os dias.
+                                              </li>
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  acesso a área da musculação.
                                               </li>
                                           </ul>
                                       </div>
@@ -107,15 +110,15 @@
 
                                   <div>
                                       <div class="plano__cta">
-                                          <p>Aproveite</p>
+                                          <p></p>
                                       </div>
                                   </div>
                               </div>
                           </div>
                           <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
-                              <div class="plano-smart">
+                              <div class="plano-smart h-100">
                                   <div>
-                                      <div class="badge badge-black">
+                                      <div class="badge badge_black">
                                           <strong>Impacto</strong>
                                       </div>
                                       <div class="text-center py-3 card-verde">
@@ -145,29 +148,35 @@
                                           <h5 class="uppercase mb-3 mt-3 font-bold texto-escuro">
                                               DIFERENCIAIS
                                           </h5>
-                                          <ul>
-                                              <li class="font-bold mb-6 titulo-claro2 text-left">
+                                          <ul class="pb-4">
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Acesso ilimitado a todas áreas da academia
                                               </li>
-                                              <li class="font-bold mb-6 titulo-claro2 text-left">
-                                                  Aulas de Ginástica
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Treino 7 dias por semana
                                               </li>
-                                              <li class="font-bold mb-6 titulo-claro2 text-left">
-                                                  Área de musculação e aeróbicos
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Treinos personalizados todos os dias.
+                                              </li>
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Acesso a musculação e 2 aulas aeróbicas
+                                              </li>
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Até 3 MODALIDADES DISPONÍVEL.
+                                              </li>
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Área de musculação e aeróbicos.
+                                              </li>
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Disponibilidade mais de uma vez por dia de TREINO.
                                               </li>
                                           </ul>
-                                      </div>
-                                  </div>
-
-                                  <div>
-                                      <div class="plano__cta">
-                                          <p>Aproveite</p>
                                       </div>
                                   </div>
                               </div>
                           </div>
                           <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
-                              <div class="plano-inicio">
+                              <div class="plano-inicio h-100">
 
                                   <div>
                                       <div class="badge">
@@ -196,28 +205,43 @@
                                           </div>
                                       </div>
 
-                                      <div class="">
+                                      <div class="h-100">
                                           <h5 class="uppercase mb-3 mt-3 font-bold texto-verde">
                                               DIFERENCIAIS
                                           </h5>
-                                          <ul>
+                                          <ul class="pb-4">
                                               <li class="font-bold mb-6 texto-claro text-left">
                                                   Acesso ilimitado a todas áreas da academia
                                               </li>
                                               <li class="font-bold mb-6 texto-claro text-left">
-                                                  Aulas de Ginástica
+                                                  Treino 7dias por semana
                                               </li>
                                               <li class="font-bold mb-6 texto-claro text-left">
-                                                  Área de musculação e aeróbicos
+                                                  Treinos personalizados todos os dias.
+                                              </li>
+                                              <li class="font-bold mb-6 texto-claro text-left">
+                                                  Acesso a musculação e 2 aulas aeróbicas
+                                              </li>
+                                              <li class="font-bold mb-6 texto-claro text-left">
+                                                  Até 3 MODALIDADES DISPONÍVEL.
+                                              </li>
+                                              <li class="font-bold mb-6 texto-claro text-left">
+                                                  Área de musculação e aeróbicos.
+                                              </li>
+                                              <li class="font-bold mb-6 texto-claro text-left">
+                                                  Disponibilidade mais de uma vez por dia de TREINO.
+                                              </li>
+                                              <li class="font-bold mb-6 texto-claro text-left">
+                                                  Acesso a todas as dependências da academia e todas as aulas disponíveis.
                                               </li>
                                           </ul>
                                       </div>
                                   </div>
-                                  <div>
-                                      <div class="plano__cta">
-                                          <p>Aproveite</p>
-                                      </div>
-                                  </div>
+{{--                                  <div>--}}
+{{--                                      <div class="plano__cta">--}}
+{{--                                          <p>Aproveite</p>--}}
+{{--                                      </div>--}}
+{{--                                  </div>--}}
                               </div>
                           </div>
                       </div>
@@ -225,11 +249,11 @@
               </div>
           </div>
       </section>
-      <!-- ======= Team Section ======= -->
+             <!-- ======= Team Section ======= -->
       <section id="team" class="team">
           <div class="container">
               <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-                  <h2>Sobre</h2>
+                  <h2>Missão | Visão | Valores</h2>
               </div>
               <div class="row">
                   <div class="col-lg-6 col-md-6">
@@ -241,9 +265,10 @@
                               <h4>Academia Impacto Fitness</h4>
                               <span>NOSSO OBJETIVO É O SEU RESULTADO</span>
                               <div class="social">
-                                  <a href=""><i class="icofont-whatsapp" style="color: #54861f"></i></a>
-                                  <a href=""><i class="icofont-youtube" style="color: #54861f"></i></a>
-                                  <a href="https://www.instagram.com/dricardoarenella/">
+
+                                  <a href="https://api.whatsapp.com/send?phone=5511941013323"  target="_blank"><i class="icofont-whatsapp" style="color: #54861f"></i></a>
+                                  <a href="https://www.youtube.com/channel/UC8zcD8YKvumXv9A07p85RyA" class="instagram"  target="_blank"><i class="icofont-youtube" style="color: #54861f"></i></a>
+                                  <a href="https://www.instagram.com/grupoimpactoacademia/?hl=pt-br" target="_blank">
                                       <i class="icofont-instagram" style="color: #54861f">
                                       </i>
                                   </a>
@@ -253,32 +278,27 @@
                   </div>
                   <div class="col-lg-6 col-md-6">
                       <div class="texto-curriculo">
-                          <h3 class="title">Dr. Ricardo Roscito Arenella</h3>
+                          <h3 class="title">Missão</h3>
                           <p class="txt1">
-                              Filho de ginecologista reconhecido na região do ABC, em São Caetano do Sul, Dr.Aldo
-                              Arenella (in memorian), Dr.Ricardo cresceu em meio à forte
-                              influência dessa linda e honrosa profissão. Seu pai o levava para acompanhar o consultório
-                              e os partos desde pequeno e a aptidão surgiu com naturalidade
-                              desde então. Foi sócio herdeiro de um Hospital em São Bernardo do Campo quando chegou a
-                              coordenar mais de 45 colegas especialistas de profissão na maternidade
-                              que realizava na época aproximadamente 630 partos por mês. Médico muito atencioso, humano
-                              e dedicado, utiliza de linguagem simples ao fácil entendimento de suas
-                              pacientes e com experiência pelos mais de dois mil partos já realizados. Atualmente entre
-                              as clínicas que atende, no grande ABC e São Paulo capital, integra a equipe
-                              de ginecologia do Hospital São Luiz unidade Morumbi e Rede D’or Assunção.
+                              Atuar no setor de saúde e bem estar com qualidade e responsabilidade social.
+                              ATUAR- Investir, proporcionar, fazer parcerias, capacitar.
+                              ÁREA DA SAÚDE- primariamente; saúde e bem-estar, secundariamente; estética e boa forma.
+                              QUALIDADE- excelência na orientação das atividades, bons equipamentos, satisfação do cliente, cumprimento das especificações.                          </p>
+                      </div>
+                      <div class="texto-curriculo">
+                          <h3 class="title">Visão</h3>
+                          <p class="txt1">
+                              Consolidar-se como um dos grupos mais conceituados no setor fitness em valor de mercado, admirado pelo cliente e reconhecido pela solidez.
                           </p>
                       </div>
                       <div class="texto-curriculo">
-                          <h3 class="title">Mini currículo</h3>
+                          <h3 class="title">Valores</h3>
                           <p class="txt1">
-                              Formado pela faculdade de Medicina do ABC (FMABC)
-                              Residência médica em Ginecologia e Obstetrícia pela FMABC
-                              Especialista em Ginecologia e Obstetrícia pelo Conselho Federal de Medicina (CFM)
-                              Membro da Federação Paulista de Ginecologia e Obstetrícia (FEBRASGO)
-                              Pós Graduado em Medicina Estética pela Sociedade Brasileira de Medicina Estética(SBME –
-                              ASIME (Internacional))
-                              MBA em Gestão de Serviços de Saúde pela FGV-CEAHS
-                          </p>
+                              INTEGRIDADE- honrar compromissos, agir com transparência, ética e de maneira solida com o cliente.
+                              ÉTICA- praticar o bem. Respeitar a dignidade das pessoas.
+                              RESPONSABILIDADE SOCIAL- Suprir a necessidade do cliente com relação aos serviços oferecidos so setor de saúde, bem estar, de maneira confiável e efetiva em termos de custos, contribuindo para o desenvolvimento e assegurando melhor qualidade de vida para toda sociedade.
+                              ENTUSIAMO NO TRABALHO- Agir com comprometimento, responsabilidade e dedicação.
+                              ESPÍRITO EMPREENDEDOR- Tomar iniciativas, ousar e decidir, criar eventos que motivem seus clientes observando as diretrizes da empresa.                          </p>
                       </div>
                   </div>
               </div>
@@ -302,17 +322,17 @@
                       <ul id="portfolio-flters">
                           <li data-filter="*" class="filter-active">Todos</li>
                           <li data-filter=".filter-segunda">Segunda</li>
-                          <li data-filter=".filter-card">Terça</li>
-                          <li data-filter=".filter-web">Quarta</li>
-                          <li data-filter=".filter-web">Quinta</li>
-                          <li data-filter=".filter-web">Sexta</li>
+                          <li data-filter=".filter-terca">Terça</li>
+                          <li data-filter=".filter-quarta">Quarta</li>
+                          <li data-filter=".filter-quinta">Quinta</li>
+                          <li data-filter=".filter-sexta">Sexta</li>
                       </ul>
                   </div>
               </div>
 
               <div class="row portfolio-container" data-aos="fade-up">
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-segunda">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-segunda filter-quarta">
                       <div class="portfolio-wrap">
                           <img src="{{ asset('/img/portfolio/portifolio2.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
@@ -323,42 +343,7 @@
                       </div>
                   </div>
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                      <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portifolio1.png') }}" class="img-fluid" alt="">
-                          <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portifolio1.png') }}" data-gall="portfolioGallery"
-                                 class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                              <a href="" title="More Details"><i class="bx bx-link"></i></a>
-                          </div>
-                      </div>
-                  </div>
-
-
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-                      <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portifolio3.png') }}" class="img-fluid" alt="">
-                          <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portifolio3.png') }}" data-gall="portfolioGallery"
-                                 class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                      <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portifolio4.png') }}" class="img-fluid" alt="">
-                          <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portifolio4.png') }}" data-gall="portfolioGallery"
-                                 class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                          </div>
-                      </div>
-                  </div>
-
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-segunda filter-quarta">
                       <div class="portfolio-wrap">
                           <img src="{{ asset('/img/portfolio/portifolio5.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
@@ -369,49 +354,40 @@
                       </div>
                   </div>
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-terca filter-quinta">
                       <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-6.jpg') }}" class="img-fluid" alt="">
+                          <img src="{{ asset('/img/portfolio/portifolio3.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-6.jpg') }}" data-gall="portfolioGallery"
-                                 class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                              <a href="{{ asset('/img/portfolio/portifolio3.png') }}" data-gall="portfolioGallery"
+                                 class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
                               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                           </div>
                       </div>
                   </div>
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-terca filter-quinta">
                       <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-7.jpg') }}" class="img-fluid" alt="">
+                          <img src="{{ asset('/img/portfolio/portifolio1.png') }}" class="img-fluid" alt="">
                           <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-7.jpg') }}" data-gall="portfolioGallery"
-                                 class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                              <a href="{{ asset('/img/portfolio/portifolio1.png') }}" data-gall="portfolioGallery"
+                                 class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                              <a href="" title="More Details"><i class="bx bx-link"></i></a>
+                          </div>
+                      </div>
+                  </div>
+
+                  <div class="col-lg-4 col-md-6 portfolio-item filter-quarta filter-sexta ">
+                      <div class="portfolio-wrap">
+                          <img src="{{ asset('/img/portfolio/portifolio4.png') }}" class="img-fluid" alt="">
+                          <div class="portfolio-links">
+                              <a href="{{ asset('/img/portfolio/portifolio4.png') }}" data-gall="portfolioGallery"
+                                 class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
                               <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
                           </div>
                       </div>
                   </div>
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-                      <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-8.jpg') }}" class="img-fluid" alt="">
-                          <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-8.jpg') }}" data-gall="portfolioGallery"
-                                 class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                          </div>
-                      </div>
-                  </div>
 
-                  <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-                      <div class="portfolio-wrap">
-                          <img src="{{ asset('/img/portfolio/portfolio-9.jpg') }}" class="img-fluid" alt="">
-                          <div class="portfolio-links">
-                              <a href="{{ asset('/img/portfolio/portfolio-9.jpg') }}" data-gall="portfolioGallery"
-                                 class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                              <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                          </div>
-                      </div>
-                  </div>
 
               </div>
 
@@ -437,7 +413,7 @@
                       <div class="info-box  mb-4">
                           <i class="bx bx-envelope"></i>
                           <h3>E-mail</h3>
-                          <a href="malito:impacto.academiafitness@gmail.com" class="item-link mailto">
+                          <a href="malito:impactoacademiafitness@gmail.com" class="item-link mailto">
                               <p>impacto.academiafitness@gmail.com</p>
                           </a>
                       </div>
@@ -447,8 +423,9 @@
                           <a href="tel:5511941013323">
                               <i class="bx bx-phone-call"></i>
                                 <h3>Telefone</h3>
+                              <p>(11) 9 4101-3323</p>
                           </a>
-                            (11) 9 4101-3323
+
                       </div>
                   </div>
               </div>

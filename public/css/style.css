@@ -470,17 +470,17 @@ section {
     content: '';
     position: absolute;
     width: 0;
-    height: 0;
+    height: 10px;
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
     border-bottom: 11px solid #54861f;
     bottom: -9px;
-    right: 1px;
+    right: 2px;
     transform: rotate(
-        -45deg
+        -46deg
     );
 }
-.badge-black {
+.badge_black {
     position: absolute;
     top: -10px;
     right: -1px;
@@ -489,18 +489,18 @@ section {
     color: #fff;
     padding: 3px 10px;
 }
-.badge-black:after {
+.badge_black:after {
     content: '';
     position: absolute;
     width: 0;
-    height: 0;
+    height: 10px;
     border-left: 11px solid transparent;
     border-right: 11px solid transparent;
     border-bottom: 11px solid #212529;
     bottom: -9px;
-    right: 1px;
+    right: 2px;
     transform: rotate(
-        -45deg
+        -46deg
     );
 }
 
@@ -653,7 +653,7 @@ section {
             -46deg
         );
     }
-    .badge-black:after {
+    .badge_black:after {
         right: 2px;
         transform: rotate(
             -46deg
@@ -941,7 +941,7 @@ section {
 }
 
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
-  color: #c4acab;
+  color: #dfdfdf;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -1304,6 +1304,7 @@ section {
 
 .contact .info-box p {
   padding: 0;
+  color: #777777;
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
