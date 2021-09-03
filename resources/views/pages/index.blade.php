@@ -93,10 +93,13 @@
                                           </h5>
                                           <ul class="pb-4">
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Acesso ilimitado a todas áreas da academia
+                                                  Wi-Fi liberado.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Treino 7dias por semana
+                                                  Acesso ilimitado a todas áreas da academia.
+                                              </li>
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Treino 7dias por semana.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Treinos personalizados todos os dias.
@@ -150,16 +153,19 @@
                                           </h5>
                                           <ul class="pb-4">
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Acesso ilimitado a todas áreas da academia
+                                                  Wi-Fi liberado.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Treino 7 dias por semana
+                                                  Acesso ilimitado a todas áreas da academia.
+                                              </li>
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Treino 7 dias por semana.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Treinos personalizados todos os dias.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Acesso a musculação e 2 aulas aeróbicas
+                                                  Acesso a musculação e 2 aulas aeróbicas.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Até 3 MODALIDADES DISPONÍVEL.
@@ -210,28 +216,31 @@
                                               DIFERENCIAIS
                                           </h5>
                                           <ul class="pb-4">
-                                              <li class="font-bold mb-6 texto-claro text-left">
-                                                  Acesso ilimitado a todas áreas da academia
+                                              <li class="font-bold mb-2  texto-claro text-left">
+                                                  Wi-Fi liberado.
                                               </li>
-                                              <li class="font-bold mb-6 texto-claro text-left">
-                                                  Treino 7dias por semana
+                                              <li class="font-bold mb-2  texto-claro text-left">
+                                                  Acesso ilimitado a todas áreas da academia.
                                               </li>
-                                              <li class="font-bold mb-6 texto-claro text-left">
+                                              <li class="font-bold mb-2  texto-claro text-left">
+                                                  Treino 7dias por semana.
+                                              </li>
+                                              <li class="font-bold mb-2  texto-claro text-left">
                                                   Treinos personalizados todos os dias.
                                               </li>
-                                              <li class="font-bold mb-6 texto-claro text-left">
-                                                  Acesso a musculação e 2 aulas aeróbicas
+                                              <li class="font-bold mb-2  texto-claro text-left">
+                                                  Acesso a musculação e 2 aulas aeróbicas.
                                               </li>
-                                              <li class="font-bold mb-6 texto-claro text-left">
+                                              <li class="font-bold mb-2  texto-claro text-left">
                                                   Até 3 MODALIDADES DISPONÍVEL.
                                               </li>
-                                              <li class="font-bold mb-6 texto-claro text-left">
+                                              <li class="font-bold mb-2  texto-claro text-left">
                                                   Área de musculação e aeróbicos.
                                               </li>
-                                              <li class="font-bold mb-6 texto-claro text-left">
+                                              <li class="font-bold mb-2  texto-claro text-left">
                                                   Disponibilidade mais de uma vez por dia de TREINO.
                                               </li>
-                                              <li class="font-bold mb-6 texto-claro text-left">
+                                              <li class="font-bold mb-2  texto-claro text-left">
                                                   Acesso a todas as dependências da academia e todas as aulas disponíveis.
                                               </li>
                                           </ul>
@@ -311,10 +320,8 @@
           <div class="container">
 
               <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-                  <h2>Portfolio</h2>
-                  <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit
-                      sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
-                      Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+                  <h2>Galeria</h2>
+                  <p class="texto-escuro">Aulas durante a semana</p>
               </div>
 
               <div class="row" data-aos="fade-in">
