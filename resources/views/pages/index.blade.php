@@ -94,7 +94,7 @@
                                                   Acesso ilimitado a todas áreas da academia.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Treino 7dias por semana.
+                                                  Treino 7 dias por semana.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Treinos personalizados todos os dias.
@@ -154,7 +154,7 @@
                                                   Acesso a área das aulas ginásticas coletivas.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Treino 7 dias por semana.
+                                                  Treino 4 dias podendo fazer até 10 Aulas por semana.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Treinos personalizados todos os dias.
@@ -212,7 +212,7 @@
                                                   Acesso ilimitado a todas áreas da academia.
                                               </li>
                                               <li class="font-bold mb-2  texto-claro text-left">
-                                                  Treino 7dias por semana.
+                                                  Treino 7 dias por semana.
                                               </li>
                                               <li class="font-bold mb-2  texto-claro text-left">
                                                   Treinos personalizados todos os dias.

@@ -28,8 +28,8 @@ class newSendMail extends Mailable
      */
     public function build()
     {
-        $this->to('michaelrcostadeoliveira@gmail.com',  $this->user->name);
         $this->subject('Novo Cliente');
+        $this->to('impacto.academiafitness@gmail.com',  $this->user->name);
         return $this->markdown('mail.newEmail', ['user'=> $this->user]);
     }
 }
