@@ -9,7 +9,7 @@
     <meta content="" name="keywords">
 
     <!-- Favicons -->
-    <link href="{{ asset('img/Logoblack.png', env('SECURE_PATH',  null)) }}" rel="icon">
+    <link href="{{ asset('img/Logoblack.png', true) }}" rel="icon">
 
 
     <!-- Google Fonts -->
@@ -18,18 +18,18 @@
         rel="stylesheet">
 
     <!-- Vendor CSS Files -->
-    <link href="{{ asset('vendor/bootstrap/css/bootstrap.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
-    <link href="{{ asset('vendor/icofont/icofont.min.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/bootstrap/css/bootstrap.css', true) }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/icofont/icofont.min.css', true) }}" rel="stylesheet"/>
 
-    <link href="{{ asset('vendor/boxicons/css/boxicons.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
-    <link href="{{ asset('vendor/venobox/venobox.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
-    <link href="{{ asset('vendor/owl.carousel/assets/owl.carousel.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
-    <link href="{{ asset('vendor/aos/aos.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/boxicons/css/boxicons.css', true) }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/venobox/venobox.css', true) }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/owl.carousel/assets/owl.carousel.css', true) }}" rel="stylesheet"/>
+    <link href="{{ asset('vendor/aos/aos.css', true) }}" rel="stylesheet"/>
     <link
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
     <!-- Template Main CSS File -->
-    <link href="{{ asset('css/style.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
+    <link href="{{ asset('css/style.css', true) }}" rel="stylesheet"/>
 
     <!-- =======================================================
     * Template Name: Squadfree - v2.3.1
@@ -125,17 +125,17 @@
     </div>
 </footer>
 <!-- Vendor JS Files -->
-<script src="{{ asset('vendor/jquery/jquery.min.js', env('SECURE_PATH',  null)) }}"></script>
-<script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.js', env('SECURE_PATH',  null)) }}"></script>
-<script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js', env('SECURE_PATH',  null)) }}"></script>
-<script src="{{ asset('vendor/waypoints/jquery.waypoints.min.js', env('SECURE_PATH',  null)) }}"></script>
-<script src="{{ asset('vendor/counterup/counterup.min.js', env('SECURE_PATH',  null)) }}"></script>
-<script src="{{ asset('vendor/isotope-layout/isotope.pkgd.js', env('SECURE_PATH',  null)) }}"></script>
-<script src="{{ asset('vendor/venobox/venobox.js', env('SECURE_PATH',  null)) }}"></script>
-<script src="{{ asset('vendor/owl.carousel/owl.carousel.js', env('SECURE_PATH',  null)) }}"></script>
-<script src="{{ asset('vendor/aos/aos.js', env('SECURE_PATH',  null)) }}"></script>
+<script src="{{ asset('vendor/jquery/jquery.min.js', true) }}"></script>
+<script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.js', true) }}"></script>
+<script src="{{ asset('vendor/jquery.easing/jquery.easing.min.js', true) }}"></script>
+<script src="{{ asset('vendor/waypoints/jquery.waypoints.min.js', true) }}"></script>
+<script src="{{ asset('vendor/counterup/counterup.min.js', true) }}"></script>
+<script src="{{ asset('vendor/isotope-layout/isotope.pkgd.js', true) }}"></script>
+<script src="{{ asset('vendor/venobox/venobox.js', true) }}"></script>
+<script src="{{ asset('vendor/owl.carousel/owl.carousel.js', true) }}"></script>
+<script src="{{ asset('vendor/aos/aos.js', true) }}"></script>
 <!-- Template Main JS File -->
-<script src="{{ asset('js/main.js', env('SECURE_PATH',  null)) }}"></script>
+<script src="{{ asset('js/main.js',true) }}"></script>
 <script>
 @if(Route::getCurrentRoute()->getName() == 'home')
 $('.menu-home').click(function() {
