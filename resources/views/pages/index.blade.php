@@ -49,16 +49,11 @@
           <div class="container">
               <div class="section-title" data-aos="fade-in" data-aos-delay="100">
                   <h2 class="section-title_verde">Escolha seu plano</h2>
-                  <h5 class="texto-escuro">Planos Recorrência* Benefícios</h5>
-                  <p class="texto-escuro">
-                      Treine o quanto quiser com nossos planos. Todos oferecem áreas de musculação, aeróbico, aulas
-                      especiais e de ginástica
-                  </p>
               </div>
               <div class="row justify-center">
                   <div class="col-md-12 mb-6 pt-3 text-center">
                       <div class="row justify-center">
-                          <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="100">
                               <div class="plano-smart h-100">
                                   <div>
                                       <div class="badge badge_black">
@@ -118,7 +113,7 @@
                                   </div>
                               </div>
                           </div>
-                          <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="100">
                               <div class="plano-smart h-100">
                                   <div>
                                       <div class="badge badge_black">
@@ -156,7 +151,7 @@
                                                   Wi-Fi liberado.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Acesso ilimitado a todas áreas da academia.
+                                                  Acesso a área das aulas ginásticas coletivas.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Treino 7 dias por semana.
@@ -165,13 +160,7 @@
                                                   Treinos personalizados todos os dias.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Acesso a musculação e 2 aulas aeróbicas.
-                                              </li>
-                                              <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Até 3 MODALIDADES DISPONÍVEL.
-                                              </li>
-                                              <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Área de musculação e aeróbicos.
+                                                  Acesso a 2 aulas aeróbicas.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Disponibilidade mais de uma vez por dia de TREINO.
@@ -181,7 +170,7 @@
                                   </div>
                               </div>
                           </div>
-                          <div class="col-md-4 mt-6 my-6 md:mb-0" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="100">
                               <div class="plano-inicio h-100">
 
                                   <div>
@@ -232,7 +221,7 @@
                                                   Acesso a musculação e 2 aulas aeróbicas.
                                               </li>
                                               <li class="font-bold mb-2  texto-claro text-left">
-                                                  Até 3 MODALIDADES DISPONÍVEL.
+                                                  Até 3 modalidades disponíveis.
                                               </li>
                                               <li class="font-bold mb-2  texto-claro text-left">
                                                   Área de musculação e aeróbicos.
@@ -254,6 +243,20 @@
                               </div>
                           </div>
                       </div>
+                  </div>
+              </div>
+              <div class="row">
+                  <div class="section-title mt-4" data-aos="fade-in" data-aos-delay="100">
+                      <h5 class="texto-escuro">Planos Recorrência* Benefícios</h5>
+                      <p class="texto-escuro">
+                          *O preço da mensalidade não inclui taxas de matrícula e manutenção.
+
+                          Pagamento mensal por cartão de crédito. O preço mínimo pode variar entre os planos.
+
+                          Sujeito a alterações sem aviso prévio. Não aceitamos cheques. As Taxas de Manutenção
+                          e matrícula aparecerão no seu cartão de crédito somadas e com o nome "Taxa de Adesão".
+                      </p>
+
                   </div>
               </div>
           </div>
@@ -320,8 +323,11 @@
           <div class="container">
 
               <div class="section-title" data-aos="fade-in" data-aos-delay="100">
-                  <h2>Galeria</h2>
-                  <p class="texto-escuro">Aulas durante a semana</p>
+                  <h2 class="section-title_verde">Aulas e Horários</h2>
+                  <h5 class="texto-escuro"></h5>
+                  <p class="texto-escuro">
+                      Segunda a Sexta 06h30 ás 22h. Sábado 08h ás 15h. Domingo 10h ás 14h.
+                  </p>
               </div>
 
               <div class="row" data-aos="fade-in">

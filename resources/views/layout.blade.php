@@ -63,7 +63,7 @@
 {{--                    </ul>--}}
 {{--                </li>--}}
 {{--                <li><a href="{{ route('galeria') }}">GALERIA DE FOTOS</a></li>--}}
-                <li><a href="#galeria">GALERIA</a></li>
+                <li><a href="#galeria">AULAS</a></li>
                 <li><a href="#contact">CONTATO</a></li>
 
             </ul>
