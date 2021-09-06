@@ -124,6 +124,7 @@
         </div>
     </div>
 </footer>
+
 <!-- Vendor JS Files -->
 <script src="{{ asset('vendor/jquery/jquery.min.js', true) }}"></script>
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.js', true) }}"></script>
