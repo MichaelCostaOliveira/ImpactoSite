@@ -19,8 +19,8 @@ use Illuminate\Http\Request;
 Route::get('/',[\App\Http\Controllers\HomeController::class, 'index'])
     ->name('home');
 
-Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])
-    ->name('galeria');
+//Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])
+//    ->name('galeria');
 
 Route::post('envio-email', function (Request $request) {
     $user = new stdClass();
@@ -29,6 +29,7 @@ Route::post('envio-email', function (Request $request) {
     $user->mensagem = $request->message;
     $user->plano = $request->plano;
     $user->titulo = 'Novo Cliente';
-    Mail::send(new newSendMail($user));
+    $ma = Mail::send(new newSendMail($user));
+    dd($ma);
     return redirect()->route('home');
 })->name('envio-email');
