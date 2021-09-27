@@ -29,7 +29,6 @@ Route::post('envio-email', function (Request $request) {
     $user->mensagem = $request->message;
     $user->plano = $request->plano;
     $user->titulo = 'Novo Cliente';
-    $ma = Mail::send(new newSendMail($user));
-    dd($ma);
+    Mail::send(new newSendMail($user));
     return redirect()->route('home');
 })->name('envio-email');
