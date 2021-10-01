@@ -1,0 +1,1 @@
+[24-Sep-2021 18:54:33 America/Fortaleza] PHP Fatal error:  Composer detected issues in your platform: Your Composer dependencies require a PHP version ">= 7.4.0". You are running 7.3.30. in /home1/vemco038/public_html/ImpactoSite/vendor/composer/platform_check.php on line 24
