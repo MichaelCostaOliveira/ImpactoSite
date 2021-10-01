@@ -16,19 +16,16 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::get('/',[\App\Http\Controllers\HomeController::class, 'index'])
-    ->name('home');
+Route::get('/',[\App\Http\Controllers\SiteController::class, 'index'])
+    ->name('site');
 
 //Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])
 //    ->name('galeria');
 
-Route::post('envio-email', function (Request $request) {
-    $user = new stdClass();
-    $user->name = $request->name;
-    $user->email = $request->email;
-    $user->mensagem = $request->message;
-    $user->plano = $request->plano;
-    $user->titulo = 'Novo Cliente';
-    Mail::send(new newSendMail($user));
-    return redirect()->route('home');
-})->name('envio-email');
+Route::post('envio-email', [])->name('envio-email');
+
+
+Auth::routes(['register' => false]);
+Route::group(['middleware' => 'auth'], function() {
+    Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+});
