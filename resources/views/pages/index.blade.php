@@ -148,13 +148,16 @@
                                           </h5>
                                           <ul class="pb-4">
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Wi-Fi liberado.
+                                                  Wi-Fi.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Acesso a área das aulas ginásticas coletivas.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Treino 4 dias podendo fazer até 10 Aulas por semana.
+                                                  Acesso a 2 aulas coletivas e a musculação.
+                                              </li>
+                                              <li class="font-bold mb-2 titulo-claro2 text-left">
+                                                  Treino 7 dias podendo fazer até 10 Aulas por semana.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
                                                   Treinos personalizados todos os dias.
@@ -163,7 +166,7 @@
                                                   Acesso a 2 aulas aeróbicas.
                                               </li>
                                               <li class="font-bold mb-2 titulo-claro2 text-left">
-                                                  Disponibilidade mais de uma vez por dia de TREINO.
+                                                  Disponibilidade de treino mais de uma vez por dia.
                                               </li>
                                           </ul>
                                       </div>
@@ -218,10 +221,7 @@
                                                   Treinos personalizados todos os dias.
                                               </li>
                                               <li class="font-bold mb-2  texto-claro text-left">
-                                                  Acesso a musculação e 2 aulas aeróbicas.
-                                              </li>
-                                              <li class="font-bold mb-2  texto-claro text-left">
-                                                  Até 3 modalidades disponíveis.
+                                                  Acesso a todas as aulas disponíveis na academia.
                                               </li>
                                               <li class="font-bold mb-2  texto-claro text-left">
                                                   Área de musculação e aeróbicos.
