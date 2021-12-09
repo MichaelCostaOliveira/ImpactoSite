@@ -65,7 +65,7 @@
 {{--                <li><a href="{{ route('galeria') }}">GALERIA DE FOTOS</a></li>--}}
                 <li><a href="#galeria">AULAS</a></li>
                 <li><a href="#contact">CONTATO</a></li>
-                <li><a href="https://www.terminalsca.com/comaimpacto/" target="_blank">Painel do Aluno</a></li>
+                <li><a href="https://www.terminalsca.com/comaimpacto/" target="_blank">PAINEL DO ALUNO</a></li>
 
             </ul>
         </nav>
@@ -113,6 +113,7 @@
                         <li><i class="bx bx-chevron-right"></i> <a href="#planos">Planos</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#galeria">Galeria</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contato</a></li>
+                        <li><a href="https://www.terminalsca.com/comaimpacto/" target="_blank">PAINEL DO ALUNO</a></li>
                     </ul>
                 </div>
 
