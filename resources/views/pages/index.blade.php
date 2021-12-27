@@ -424,9 +424,10 @@
                   </div>
                   <div class="col-lg-3 col-md-6">
                       <div class="info-box  mb-4">
+                          <a href="mailto:impactoacademiafitness@gmail.com" class="item-link mailto">
                           <i class="bx bx-envelope"></i>
                           <h3>E-mail</h3>
-                          <a href="malito:impactoacademiafitness@gmail.com" class="item-link mailto">
+
                               <p>impacto.academiafitness@gmail.com</p>
                           </a>
                       </div>

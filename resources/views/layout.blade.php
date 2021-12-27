@@ -94,8 +94,8 @@
                         <p>
                             R. Avaré - Jardim Angela<br>
                             Embu das Artes - SP, 06824-270<br><br>
-                            <strong>Phone:</strong> (11) 9 4101-3323<br>
-                            <strong>Email:</strong> impacto.academiafitness@gmail.com<br>
+                            <strong>Email:</strong> <a href="mailto:impacto.academiafitness@gmail.com" style="color: #6ca72c !important;">impacto.academiafitness@gmail.com</a><br>
+                            <strong>Phone:</strong>  <a href="tel:5511941013323" style="color: #6ca72c !important;">(11) 9 4101-3323</a><br>
                         </p>
                         <div class="social-links mt-3">
                             <a href="https://api.whatsapp.com/send?phone=5511941013323"  target="_blank"><i class="bx bxl-whatsapp"></i></a>
@@ -126,9 +126,22 @@
 
                 <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
             </div>
+
+        </div>
+    </div>
+    <div class="col-12">
+        <div class="row">
+            <div class="col-12">
+                <div class="footer-info" data-aos="fade-up" data-aos-delay="50">
+                    <p class="text-center">Impacto {{ \Carbon\Carbon::now()->format('Y') }} | Todos os direitos reservados</p>
+                    <p class="text-center">Desenvolvimento | <a href="mailto:maicon__costa@hotmail.com" >maicon__costa@hotmail.com</a></p>
+                </div>
+            </div>
         </div>
     </div>
 </footer>
+
+
 <!-- Vendor JS Files -->
 <script src="{{ asset('vendor/jquery/jquery.min.js', env('SECURE_PATH',  null)) }}"></script>
 <script src="{{ asset('vendor/bootstrap/js/bootstrap.bundle.js', env('SECURE_PATH',  null)) }}"></script>
