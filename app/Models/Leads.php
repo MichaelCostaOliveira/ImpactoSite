@@ -16,7 +16,7 @@ class Leads extends Model
         'email',
         'plano',
         'observacoes',
-
+        'status_id'
     ];
 
 }

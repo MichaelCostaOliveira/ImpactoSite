@@ -3,11 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Leads;
-use App\Models\Motoristas;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
-class HomeController extends Controller
+class AdminController extends Controller
 {
     /**
      * Create a new controller instance.
@@ -26,14 +25,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $breadcrumb = ['title'=>'Dashboard', 'caminho'=>[['rota'=>'', 'nome'=>'']]];
+        return redirect()->route('leads-lista');
 
-        $user_motorista = Leads::get();
-
-        return view('home',
-            [
-                'breadcrumb'=>$breadcrumb,
-            ]
-        );
     }
 }

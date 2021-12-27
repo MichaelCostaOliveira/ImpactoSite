@@ -70,14 +70,20 @@
             <div class="sidebar">
 
                 <!-- Sidebar Menu -->
-                <nav class="mt-2">
-                    <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
-                        @foreach($menus??[] as $key=>$menu)
-                            @include('componentes.menu',['menu'=>$menu, 'filho'=>false])
-                        @endforeach
-
-                    </ul>
-                </nav>
+            @if(\Illuminate\Support\Facades\Auth::check())
+                <!-- Sidebar -->
+                    <div class="sidebar">
+                        <!-- Sidebar Menu -->
+                        <nav class="mt-2">
+                            <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu"
+                                data-accordion="false">
+                                @include('components.geral.menu-modulos')
+                            </ul>
+                        </nav>
+                        <!-- /.sidebar-menu -->
+                    </div>
+                    <!-- /.sidebar -->
+            @endif
                 <!-- /.sidebar-menu -->
             </div>
             <!-- /.sidebar -->

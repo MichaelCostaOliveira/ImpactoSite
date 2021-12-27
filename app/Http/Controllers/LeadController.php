@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Leads;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 
@@ -47,7 +48,8 @@ class LeadController extends Controller
                         'nome' => $nome,
                         'email' => $email,
                         'plano' => $plano,
-                        'observacoes' => $message
+                        'observacoes' => $message,
+                        'status_id' => 2,
                     ]);
             DB::commit();
         }catch (\Exception $e){
@@ -55,5 +57,25 @@ class LeadController extends Controller
             return redirect()->back()->withErrors('Erro ao Enviar');
         }
         return redirect()->route('site', ['lead' => 'ok']);
+    }
+
+    public function listagem(Request $request){
+        $perPage = $request->get('perPage', 10);
+
+        $registros = DB::table('leads')
+            ->select('leads.nome','leads.id', 'leads.email', 'leads.observacoes', 'leads.plano', 'leads.status_id',
+                'leads_status.nome as status')
+            ->join('leads_status', 'status_id', '=', 'leads_status.id')->get();
+        $breadcrumb = ['title' => 'Leads',
+            'caminho' => [['rota' => '/', 'nome' => 'Listagem'], ['rota' => '', 'nome' => '']]];
+
+        return view('admin.leads.listagem.leads',[
+            'leads' => $registros,
+            'breadcrumb' => $breadcrumb
+        ]);
+    }
+
+    public function formulario(){
+
     }
 }

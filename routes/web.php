@@ -26,6 +26,30 @@ Route::post('envio-email', [App\Http\Controllers\LeadController::class, 'index']
 
 
 Auth::routes(['register' => false]);
+
 Route::group(['middleware' => 'auth'], function() {
-    Route::get('/admin', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+    Route::get('/admin', [App\Http\Controllers\AdminController::class, 'index'])->name('home');
 });
+
+//Leads
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/leads',[\App\Http\Controllers\LeadController::class, 'listagem'])->name('leads-lista');
+    Route::get('/leads-form/{id}',[\App\Http\Controllers\LeadController::class, 'formulario'])->name('leads-form');
+
+});
+
+//Usuario
+Route::group(['middleware' => ['auth']], function () {
+    Route::get('/minha-conta',[\App\Http\Controllers\UsuarioController::class, 'minhaconta'])->name('minhaconta-form');
+    Route::post('/minha-conta',[\App\Http\Controllers\UsuarioController::class, 'minhacontaPost'])->name('minhaconta-post');
+
+    Route::get('/usuario/listagem',[\App\Http\Controllers\UsuarioController::class, 'index'])
+        ->name('usuario-listagem');
+    Route::get('/usuario/formulario/{id}', [\App\Http\Controllers\UsuarioController::class, 'form'])
+        ->name('usuario-form');
+    Route::post('/usuario/formulario/{id}',[\App\Http\Controllers\UsuarioController::class, 'formPost'])
+        ->name('usuario-form-post');
+    Route::get('/usuario/deletar/{id}',[\App\Http\Controllers\UsuarioController::class, 'deletar'])
+        ->name('usuario-deletar');
+});
+
