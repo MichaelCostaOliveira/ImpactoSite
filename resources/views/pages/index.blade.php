@@ -16,23 +16,23 @@
                   <div class="col-xl-7 d-flex align-items-stretch">
                       <div class="icon-boxes d-flex flex-column justify-content-center">
                           <div class="row">
-                              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
+                              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="50">
                                   <i class="bx bxs-bolt"></i>
                                   <h4>Perder caloria é o nosso foco!</h4>
                                   <p>Temos aulas de altas tensões como zumba,
                                       ginástica aerobica e Muay Thai onde você ativa seu metabolismo e alcança resultado de forma instantânea!</p>
                               </div>
-                              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="500">
+                              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
                                   <i class="bx bx-dumbbell"></i>
                                   <h4>Resultados</h4>
                                   <p>Na nossa academia priorizamos o resultado! Sendo assim, temos disponíveis diversos equipamentos e aparelhos para variação de treinos dos nossos alunos</p>
                               </div>
-                              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="750">
+                              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="150">
                                   <i class="bx bx-time-five"></i>
                                   <h4>Aulas e Treinos</h4>
                                   <p>Temos aulas e treinos com horas marcadas para a facilidade e alinhamento dos nossos alunos! Consulte nossos horários de funcionamento e nossas modalidades</p>
                               </div>
-                              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="1000">
+                              <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
                                   <i class="bx bx-cart"></i>
                                   <h4>Nossa Loja</h4>
                                   <p>temos disponíveis na nossa loja interna diversificações de WHEYs, proteínas e vitaminas para te auxiliar no seu processo de transição corporal! consulte nossas promoções.</p>
@@ -47,13 +47,13 @@
       <!-- End About Section -->
       <section id="planos" class="planos section-plan">
           <div class="container">
-              <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+              <div class="section-title" data-aos="fade-in" data-aos-delay="20">
                   <h2 class="section-title_verde">Escolha seu plano</h2>
               </div>
               <div class="row justify-center">
                   <div class="col-md-12 mb-6 pt-3 text-center">
                       <div class="row justify-center">
-                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="0">
                               <div class="plano-smart h-100">
                                   <div>
                                       <div class="badge badge_black">
@@ -113,7 +113,7 @@
                                   </div>
                               </div>
                           </div>
-                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="0">
                               <div class="plano-smart h-100">
                                   <div>
                                       <div class="badge badge_black">
@@ -173,7 +173,7 @@
                                   </div>
                               </div>
                           </div>
-                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="100">
+                          <div class="col-md-4 mt-5 my-4 md:mb-0" data-aos="fade-up" data-aos-delay="0">
                               <div class="plano-inicio h-100">
 
                                   <div>
@@ -246,7 +246,7 @@
                   </div>
               </div>
               <div class="row">
-                  <div class="section-title mt-4" data-aos="fade-in" data-aos-delay="100">
+                  <div class="section-title mt-4" data-aos="fade-in" data-aos-delay="0">
                       <h5 class="texto-escuro">Planos Recorrência* Benefícios</h5>
                       <p class="texto-escuro">
                           *O preço da mensalidade não inclui taxas de matrícula e manutenção.
@@ -264,12 +264,12 @@
              <!-- ======= Team Section ======= -->
       <section id="team" class="team">
           <div class="container">
-              <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+              <div class="section-title" data-aos="fade-in" data-aos-delay="50">
                   <h2>Missão | Visão | Valores</h2>
               </div>
               <div class="row">
                   <div class="col-lg-6 col-md-6">
-                      <div class="member" data-aos="fade-up" data-aos-delay="300">
+                      <div class="member" data-aos="fade-up" data-aos-delay="0">
                           <div class="pic">
                               <img src="{{ asset('img/img_academia.png') }}" class="img-fluid" alt="">
                           </div>
@@ -322,7 +322,7 @@
       <section id="galeria" class="portfolio section-plan">
           <div class="container">
 
-              <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+              <div class="section-title" data-aos="fade-in" data-aos-delay="50">
                   <h2 class="section-title_verde">Aulas e Horários</h2>
                   <h5 class="texto-escuro"></h5>
                   <p class="texto-escuro">
@@ -411,7 +411,7 @@
       <!-- ======= Contact Section ======= -->
       <section id="contact" class="contact section-bg">
           <div class="container">
-              <div class="section-title" data-aos="fade-in" data-aos-delay="100">
+              <div class="section-title" data-aos="fade-in" data-aos-delay="50">
                   <h2>Contato</h2>
               </div>
               <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -442,7 +442,7 @@
                       </div>
                   </div>
               </div>
-              <div class="row" data-aos="fade-up" data-aos-delay="200">
+              <div class="row" data-aos="fade-up" data-aos-delay="100">
                   <div class="col-lg-6 ">
                       <iframe class="mb-4 mb-lg-0"
                               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3654.049395226979!2d-46.80605138506835!3d-23.674191484627034!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce531831951c55%3A0x3b7403e06d37c44d!2sACADEMIA%20IMPACTO%20FITNESS!5e0!3m2!1spt-BR!2sbr!4v1630079288500!5m2!1spt-BR!2sbr"
@@ -496,4 +496,14 @@
   </main>
   <!-- End #main -->
 @endsection
-
+@section('js')
+    <script>
+        @if(request()->get('lead','')=='ok')
+            swalWithBootstrapButtons.fire(
+                'Sucesso',
+                'Enviado Com Sucesso!',
+                'success'
+            );
+        @endif
+    </script>
+@endsection

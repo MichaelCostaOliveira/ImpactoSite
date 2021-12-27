@@ -22,7 +22,7 @@ Route::get('/',[\App\Http\Controllers\SiteController::class, 'index'])
 //Route::get('/gallery', [\App\Http\Controllers\GalleryController::class, 'index'])
 //    ->name('galeria');
 
-Route::post('envio-email', [])->name('envio-email');
+Route::post('envio-email', [App\Http\Controllers\LeadController::class, 'index'])->name('envio-email');
 
 
 Auth::routes(['register' => false]);

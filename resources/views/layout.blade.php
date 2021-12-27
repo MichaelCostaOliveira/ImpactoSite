@@ -25,6 +25,9 @@
     <link href="{{ asset('vendor/venobox/venobox.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
     <link href="{{ asset('vendor/owl.carousel/assets/owl.carousel.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
     <link href="{{ asset('vendor/aos/aos.css', env('SECURE_PATH',  null)) }}" rel="stylesheet"/>
+    <!-- SweetAlert2 -->
+    <link rel="stylesheet" href="{{ asset('adminlte/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') }}">
+
     <link
         href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
         rel="stylesheet">
@@ -109,11 +112,11 @@
                     <h4>Links úteis</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="{{ route('home') }}">Home</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#team">MISSÃO E VALORES</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#team">Missão e Valores</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#planos">Planos</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#galeria">Galeria</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contato</a></li>
-                        <li><i class="bx bx-chevron-right"></i><a href="https://www.terminalsca.com/comaimpacto/" target="_blank">PAINEL DO ALUNO</a></li>
+                        <li><i class="bx bx-chevron-right"></i><a href="https://www.terminalsca.com/comaimpacto/" target="_blank">Painel do Aluno</a></li>
                     </ul>
                 </div>
 
@@ -138,6 +141,8 @@
 <script src="{{ asset('vendor/aos/aos.js', env('SECURE_PATH',  null)) }}"></script>
 <!-- Template Main JS File -->
 <script src="{{ asset('js/main.js', env('SECURE_PATH',  null)) }}"></script>
+<!-- SweetAlert2 -->
+<script src="{{ asset('adminlte/plugins/sweetalert2/sweetalert2.min.js') }}"></script>
 <script>
 @if(Route::getCurrentRoute()->getName() == 'home')
 $('.menu-home').click(function() {
@@ -147,7 +152,29 @@ $('.menu-home').click(function() {
     return false;
 });
 @endif
+const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+            confirmButton: 'btn btn-success ml-2',
+            cancelButton: 'btn btn-danger'
+        },
+        buttonsStyling: false
+    })
 </script>
+<script>
+    @if ($errors->any())
+    @php $erros = ''; @endphp
+    @foreach ($errors->all() as $error)
+        @php $erros .=' '.$error;
+        @endphp
+    @endforeach
+    swalWithBootstrapButtons.fire(
+        'Preencha os Campos',
+        '{{ $erros }}',
+        'warning'
+    );
+    @endif
+</script>
+@yield('js')
 </body>
 
 </html>

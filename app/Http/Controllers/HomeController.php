@@ -2,7 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Leads;
+use App\Models\Motoristas;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
@@ -23,6 +26,14 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+        $breadcrumb = ['title'=>'Dashboard', 'caminho'=>[['rota'=>'', 'nome'=>'']]];
+
+        $user_motorista = Leads::get();
+
+        return view('home',
+            [
+                'breadcrumb'=>$breadcrumb,
+            ]
+        );
     }
 }
