@@ -455,18 +455,18 @@
                           <div class="form-row">
                               <div class="col-md-6 form-group">
                                   <input type="text" name="name" class="form-control" id="name" placeholder="Nome"
-                                         data-rule="minlen:4" data-msg="Please enter at least 4 chars"/>
+                                         data-rule="minlen:4" data-msg="coloque seu nome" required />
                                   <div class="validate"></div>
                               </div>
                               <div class="col-md-6 form-group">
                                   <input type="email" class="form-control" name="email" id="email" placeholder="E-mail"
-                                         data-rule="email" data-msg="Please enter a valid email"/>
+                                         data-rule="email" data-msg="" required/>
                                   <div class="validate"></div>
                               </div>
                           </div>
                           <div class="form-row">
                               <div class="col-md-12 form-group">
-                                  <select class="form-control"name="plano" id="plano">
+                                  <select class="form-control"name="plano" id="plano" required>
                                       <option disabled selected style="display: none;" value="">Planos</option>
                                       <option value="black">Black</option>
                                       <option value="fit">Fit</option>
@@ -475,7 +475,7 @@
                               </div>
                           </div>
                           <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" data-rule="required"
+                              <textarea class="form-control" name="message" rows="5"
                                         data-msg="Please write something for us" placeholder="Mensagem"></textarea>
                               <div class="validate"></div>
                           </div>
