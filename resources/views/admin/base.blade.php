@@ -1,8 +1,9 @@
 @extends('layouts.app')
 @section('content')
     @php
-        $menus = \Illuminate\Support\Facades\Cache::get('menus');
-        $permissoes_user = \Illuminate\Support\Facades\Session::get('permissoes_user');
+        Cache::forget('permissoes');
+            $permissoes = getPermmissoes();
+        Cache::put('permissoes', $permissoes);
     @endphp
     <div class="wrapper">
         <!-- Navbar -->
@@ -92,29 +93,19 @@
         <!-- Content Wrapper. Contains page content -->
         <div class="content-wrapper">
             <!-- Content Header (Page header) -->
-            <section class="content-header">
+            <div class="content-header">
                 <div class="container-fluid">
                     <div class="row mb-2">
                         <div class="col-sm-6">
-                            <h1>{{ $breadcrumb['title'] }}</h1>
-                        </div>
-                        <div class="col-sm-6">
-                            <ol class="breadcrumb float-sm-right">
-                                @foreach($breadcrumb['caminho'] as $caminho)
-                                    @if(end($breadcrumb['caminho'])['nome'] != $caminho['nome'])
-                                        <li class="breadcrumb-item">
-                                            <a href="{{ $caminho['rota'] }}">{{ $caminho['nome'] }}</a>
-                                        </li>
-                                    @else
-                                        <li class="breadcrumb-item active">{{ $caminho['nome'] }}</li>
-                                    @endif
-                                @endforeach
-                            </ol>
-                        </div>
-                    </div>
+                            <h1 class="m-0 text-dark">{{ $title_page??'Dashboard' }}</h1>
+                        </div><!-- /.col -->
+                        @if(\Illuminate\Support\Facades\Auth::check())
+                            {{--                        @include('components.geral.breadcrumb')--}}
+                        @endif
+                    </div><!-- /.row -->
                 </div><!-- /.container-fluid -->
-            </section>
-
+            </div>
+            <!-- /.content-header -->
             <!-- Main content -->
             <section class="content">
                 <div class="container-fluid">

@@ -72,7 +72,7 @@ class LeadController extends Controller
 
         return view('admin.leads.listagem.leads',[
             'leads' => $registros,
-            'breadcrumb' => $breadcrumb
+            'title_page' => 'Leads',
         ]);
     }
 

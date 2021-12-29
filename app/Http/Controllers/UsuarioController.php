@@ -39,7 +39,7 @@ class UsuarioController extends Controller
         $registros=$registros->orderBy('name', 'ASC')->paginate($perPage);
 
 
-        return view('modulos.usuario.listagem.usuario',[
+        return view('admin.usuario.listagem.usuario',[
             'title_page' => 'Usuários',
             'registros' => $registros
         ]);
@@ -57,7 +57,7 @@ class UsuarioController extends Controller
             ->where('id', '=', $users_id)
             ->get()->first();
 
-        return view('modulos.usuario.form.usuario',[
+        return view('admin.usuario.form.usuario',[
             'title_page' => 'Usuários',
             'registro' => $registro,
             'options' => [
@@ -101,7 +101,7 @@ class UsuarioController extends Controller
             ->where('id', '=', Auth::user()->id)
             ->get()->first();
 
-        return view('modulos.usuario.form.minhaconta',[
+        return view('admin.usuario.form.minhaconta',[
             'title_page' => 'Meu perfil',
             'registro' => $registro
         ]);

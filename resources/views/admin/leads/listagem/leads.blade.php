@@ -1,4 +1,4 @@
-@extends('admin.base', ['breadcrumb'=>$breadcrumb])
+@extends('admin.base')
 @section('partial')
     <div class="row">
         <div class="col-12">

@@ -31,7 +31,37 @@ $permissoes = \Illuminate\Support\Facades\Cache::get('permissoes');
     </ul>
 </li>
 @endif
+@if($permissoes->administrativo == 1 && (\Route::has('perfil-form') || \Route::has('perfil-listagem')))
+    <li class="nav-item has-treeview">
+        <a href="#" class="nav-link">
+            <i class="nav-icon fas fa-id-badge"></i>
+            <p> Perfil <i class="right fas fa-angle-left right"></i> </p>
+        </a>
+        <ul class="nav nav-treeview ml-3">
 
+            @if(
+                \Route::has('perfil-form')
+            )
+                <li class="nav-item">
+                    <a href="{{ route('perfil-form', ['id' => 'new']) }}" class="nav-link">
+                        <i class="fas fa-plus nav-icon"></i>
+                        <p>Novo</p>
+                    </a>
+                </li>
+            @endif
+            @if(
+                \Route::has('perfil-listagem')
+            )
+                <li class="nav-item">
+                    <a href="{{ route('perfil-listagem') }}" class="nav-link">
+                        <i class="fas fa-list nav-icon"></i>
+                        <p>Listagem</p>
+                    </a>
+                </li>
+            @endif
+        </ul>
+    </li>
+@endif
 <li class="nav-item">
     <hr style="border-color: #4b545c">
 </li>
@@ -42,7 +72,7 @@ $permissoes = \Illuminate\Support\Facades\Cache::get('permissoes');
     </a>
 </li>
 
-@if(\Route::has('usuario-listagem'))
+@if($permissoes->administrativo == 1 && \Route::has('usuario-listagem'))
 <li class="nav-item">
     <a href="{{ route('usuario-listagem') }}" class="nav-link">
         <i class="fas fa-users nav-icon"></i>
