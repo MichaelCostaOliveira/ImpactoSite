@@ -40,32 +40,5 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
-    private function getMenu($menu_id = NULL){
-        $arrMenu = DB::table('menus')
-            ->select('menus.id', 'menus.menu_id', 'nome', 'rota', 'ordem', 'status')
-            ->where('menus.menu_id', $menu_id)
-            ->orderBy('ordem')
-            ->get();
 
-        if(count($arrMenu) > 0)
-            foreach($arrMenu as $key => $m)
-                $arrMenu[$key]->filhos = $this->getMenu($m->id);
-
-        return $arrMenu;
-    }
-
-    private function menus(){
-        Cache::forget('menus');
-        $menus = $this->getMenu();
-        Cache::put('menus', $menus);
-    }
-
-    protected function validateLogin(Request $request)
-    {
-        $request->validate([
-            $this->username() => 'required|string',
-            'password' => 'required|string',
-        ]);
-        $this->menus();
-    }
 }
