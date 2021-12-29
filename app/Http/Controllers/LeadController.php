@@ -54,6 +54,7 @@ class LeadController extends Controller
             DB::commit();
         }catch (\Exception $e){
             DB::rollBack();
+            dd($e);
             return redirect()->back()->withErrors('Erro ao Enviar');
         }
         return redirect()->route('site', ['lead' => 'ok']);
